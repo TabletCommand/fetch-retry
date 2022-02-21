@@ -10,8 +10,7 @@
     "lint": "eslint index.js ./test/**/*.js",
     "test": "nyc mocha test/**/**.js && npm run lint",
     "integration-test": "mocha test/integration/",
-    "build": "rollup -c",
-    "prepare": "husky install"
+    "build": "rollup -c"
   },
   "keywords": [
     "fetch",
